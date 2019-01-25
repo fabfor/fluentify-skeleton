@@ -1,0 +1,77 @@
+nav {
+  background-color: #0d325a;
+}
+
+.container{
+  width: 70vw;
+  margin: auto;
+}
+
+.navbar{
+  display: inline-block;
+  height: 100px;
+  line-height: 100px;
+  width: 100%;
+}
+
+.navbar-left{
+  float: left;
+}
+
+.navbar-right{
+  float: right;
+}
+
+section.blue{
+  background-color: #0d325a;
+}
+
+section.white{
+  background-color: #ffffff;
+}
+
+.container > .claim {
+  width: 40%;
+  color: white;
+}
+
+.left, .center, .right{
+  float: left;
+  width: 33.3333%;
+}
+
+.half{
+  float: left;
+  width: 50%;
+}
+
+#why-fluentify img{
+  width: 200px;
+}
+
+#best-2 img{
+  width: 300px;
+}
+
+#best-2{
+  text-align: center;
+}
+
+#why-fluentify h3{
+  color: red;
+}
+
+.mt-20{
+  margin-top: 20px;
+}
+
+.row:after{
+  display: table;
+  content: "";
+  clear: both;
+}
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
